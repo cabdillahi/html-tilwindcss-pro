@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+
+.btnShadow {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+.blob {
+  aspect-ratio: 1;
+  clip-path: shape(from 72.64% 33.94%,curve to 84.84% 47.29% with 78.90% 38.56%,curve to 88.11% 67.05% with 90.78% 56.02%,curve to 72.16% 75.28% with 85.43% 78.08%,curve to 52.07% 77.37% with 58.90% 72.47%,curve to 34.97% 82.09% with 45.24% 82.26%,curve to 14.80% 74.89% with 24.71% 81.91%,curve to 15.68% 57.19% with 4.90% 67.86%,curve to 19.02% 33.04% with 26.45% 46.52%,curve to 24.01% 17.64% with 11.58% 19.55%,curve to 44.73% 22.62% with 36.43% 15.73%,curve to 59.71% 29.42% with 53.03% 29.51%,curve to 72.64% 33.94% with 66.39% 29.33%);
+}
+
+.shape {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}

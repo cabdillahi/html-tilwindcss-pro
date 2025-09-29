@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Input Form</title>
+  <link rel="stylesheet" href="output.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+  <!-- continaer -->
+  <div class="w-full flex items-center justify-center h-screen bg-white">
+
+    <!-- form input -->
+    <div>
+      <div class="flex flex-col items-center">
+        <h1 class="text-2xl font-bold">Sign In</h1>
+        <p>Welcome back you've been missed!</p>
+      </div>
+      <form class="shadow px-10 py-5 rounded-lg mt-[3rem]">
+        <!-- social login -->
+        <div class="flex gap-5 items-center">
+          <button class="px-6 py-3 bg-[#f7f8fa] flex items-center gap-4 font-semibold  rounded-lg"><i
+              class="fa-brands fa-google"></i> Log in with google</button>
+          <button class="px-6 py-3 bg-[#f7f8fa] flex items-center gap-4 font-semibold rounded-lg "><i
+              class="fa-brands fa-apple"></i>Log in with Apple</button>
+        </div>
+        <!--  seprate -->
+        <div class="flex items-center gap-3 my-10">
+          <div class="bg-[#c5c5c5] w-full h-[2px]"></div>
+          <div>OR</div>
+          <div class="bg-[#c5c5c5] w-full h-[2px]"></div>
+        </div>
+        <!-- inputs -->
+        <div class="flex flex-col gap-3">
+          <input class="w-full py-2 border-2 px-3 rounded-lg border-[#a5a5a5]" type="email" name="" id=""
+            placeholder="@ cabdi@gmail.com">
+          <input class="w-full py-2 border-2 px-3 rounded-lg border-[#a5a5a5]" type="password" name="" id=""
+            placeholder=".....">
+          <div class="flex w-full justify-between">
+            <div class="flex gap-2">
+              <input type="checkbox" name="" id="">
+              <p>Remember me</p>
+            </div>
+            <a href="#" class="hover:underline focus-within:border-blue-400 cursor-pointer">Forget Password?</a>
+          </div>
+        </div>
+        <!-- form footer -->
+        <div class="my-5 items-center w-full flex flex-col">
+          <button class="w-full cursor-pointer py-3 rounded-lg bg-blue-500 text-white ">Sign In</button>
+          <p class="my-5">You haven't any account? <span class="text-blue-500 font-semibold">Sign Up</span></p>
+        </div>
+      </form>
+    </div>
+
+  </div>
+</body>
+
+</html>

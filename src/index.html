@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive tailwindcss</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <!-- container -->
+     <div>
+        <!-- menu navbar  -->
+         <nav class="flex w-full justify-between items-center px-10 py-5">
+            <div><h1 class="text-2xl font-bold cursor-pointer hover:scale-105 duration-300 transition-all">SoFI</h1></div>
+            <div class="flex gap-7">
+                <a class="font-semibold cursor-pointer hover:scale-105 duration-300 transition-all hover:text-blue-400">How we Help</a>
+                <a class="font-semibold cursor-pointer hover:scale-105 duration-300 transition-all hover:text-blue-400">Our offerings</a>
+                <a class="font-semibold cursor-pointer hover:scale-105 duration-300 transition-all hover:text-blue-400 relative">Pricing <span class="bg-yellow-200 rounded-full px-3 py-1 text-center flex items-center absolute bottom-4 left-10 ">Off</span> </a>
+            </div>
+            <div class="flex gap-4">
+                <button class=" cursor-pointer hover:text-blue-400 duration-300 transition-all  font-semibold">Log in</button>
+                <button class=" cursor-pointer px-5 py-2 rounded-full bg-black text-white hover:text-black hover:border hover:border-black transition-all duration-300  hover:bg-white ">Sign up</button>
+            </div>
+         </nav>
+
+         <!-- content section  -->
+          <div class="py-5 px-14 w-full flex justify-between ">
+            <!-- content -->
+            <div class="w-full">
+                <div>
+                <h1 class="font-bold text-5xl">Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. <br> Tempora, est.</h1>
+                <p class="mt-10 text-[#7d7d7d]"> Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. Qui, dolorem.</p>
+            </div>
+            <div class="flex mt-10 gap-5">
+                <button class="px-8 flex justify-between items-center w-[30%] py-4 bg-black rounded-full text-[#7d7d7d]">Reinforce your team <i class="fa-solid fa-arrow-right"></i></button>
+                <div>
+                    <h1 class="font-bold text-2xl">$150.00</h1>
+                    <p class="text-[#bebebe]">per month</p>
+                </div>
+            </div>
+            </div>
+            <!-- images and cards -->
+
+            <div class="flex items-center gap-5">
+                <!-- cards -->
+                 <div>
+                    <div class="w-[300px] py-10 rounded-2xl px-5 bg-[#f3f3f3]">
+                        <p class="font-semibold text-[#b3b3b3]">+25.5%</p>
+                        <h1 class="text-2xl font-semibold">Lorem ipsum dolor sit amet consectetur</h1>
+                
+                        <div>
+                            <p class="flex justify-end relative top-5 text-[12px] text-[#aba9a9]">(+2.8%)Month</p>
+                            <div class="mt-5 flex ">
+                            <div class="w-full h-[2px] bg-black"></div>
+                            <span class="w-[10px] h-[8px] relative bottom-[3px] rounded-full bg-black"></span>
+                            <div class="w-[30%] h-[2px] bg-[#d4d4d4]"></div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="bg-black w-[300px] px-4 justify-center py-3 flex flex-row-reverse items-center gap-3  rounded-2xl mt-4 ">
+                       <div>
+                         <h1 class="text-white font-semibold">Overal clients Rate</h1>
+                        <p class="text-[#898683] text-[13px]"> More than 10k<span class="underline">reviews.</span></p>
+                       </div>
+                       <div class="w-16 h-16 flex items-center justify-center font-semibold  rounded-full bg-yellow-200">
+                       <h1 class="text-2xl"> 9.8</h1>
+                       </div>
+
+                    </div>
+                 </div>
+                 <!-- images -->
+                  <div>
+                    <img class="rounded-2xl" src="https://i.pinimg.com/736x/49/54/88/495488b2f79bd52c7e64acf9d2fedb27.jpg" alt="">
+                  </div>
+            </div>
+
+          </div>
+
+     </div>
+
+</body>
+</html>
